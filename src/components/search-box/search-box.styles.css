@@ -1,0 +1,32 @@
+.search {
+    -webkit-appearance: none;
+    border-radius: 2em 2em;
+    padding-left:  5%;
+    
+   
+    border: none;
+    outline: none;
+    
+    width: 400px;
+    line-height: 2em;
+    margin-bottom: 30px;
+   
+    font-family: 'Bigelow Rules';
+    
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0e3c9ebe;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
